@@ -27,6 +27,7 @@
 *.so
 *.so.*
 *.dylib
+*.dSYM
 
 # Executables
 *.exe
@@ -50,3 +51,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Bins
+sort1-test
+sort2-test
+sort3-test
+
+# Private
+!*.private
+sort1_correct.c0
+sort2_correct.c0
+sort3_correct.c0
